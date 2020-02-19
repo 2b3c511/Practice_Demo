@@ -14,10 +14,10 @@ public class News {
     private int newsID;
     @GaeaMember
     private String title;
-
+	@GaeaMember
 	private int family_name;
     public int getNewsID() {
-        return newsID;
+        return newsID+1;
     }
 
     public void setNewsID(int newsID) {
