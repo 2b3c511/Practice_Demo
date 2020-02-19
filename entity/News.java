@@ -17,7 +17,7 @@ public class News {
 	@GaeaMember
 	private int family_name;
     public int getNewsID() {
-        return newsID;
+        return newsID+2;
     }
 
     public void setNewsID(int newsID) {
